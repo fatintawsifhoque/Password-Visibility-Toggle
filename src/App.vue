@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen w-screen bg-fuchsia-200 flex justify-center items-center">
     <input :type="type" placeholder="Type your password" class="h-15 w-75 border rounded-lg pl-2" >
-    <button @click="toggle"><i :class="icon" class="text-2xl relative right-20 cursor-pointer"></i></button>
+    <button @click="toggle"><i :class="icon" class="text-2xl relative right-10 cursor-pointer"></i></button>
 
     
     <div class="absolute bottom-6 text-center">
